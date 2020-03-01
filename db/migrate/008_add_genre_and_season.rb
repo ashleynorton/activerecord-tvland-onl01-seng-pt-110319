@@ -1,4 +1,4 @@
-class AddDay < ActiveRecord::Migration[5.1]
+class AddGenreAndSeason < ActiveRecord::Migration[5.1]
   def change
     add_column :shows, :genre, :string
     add_column :shows, :season, :string
